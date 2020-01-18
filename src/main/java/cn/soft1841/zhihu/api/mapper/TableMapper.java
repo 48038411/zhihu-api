@@ -31,7 +31,8 @@ public interface TableMapper {
             @Result(property = "banner",column = "banner",javaType = String.class),
             @Result(property = "urlToken",column = "url_token",javaType = String.class),
             @Result(property = "visitsCount",column = "visits_count",javaType = Integer.class),
-            @Result(property = "includeCount",column = "include_count",javaType = Integer.class)
+            @Result(property = "includeCount",column = "include_count",javaType = Integer.class),
+            @Result(property = "description",column = "description",javaType = String.class)
     })
     List<Map> selectAll();
 }

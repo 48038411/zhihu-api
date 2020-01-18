@@ -19,5 +19,5 @@ public class RoundTable {
     private String urlToken;
     private Integer visitsCount;
     private Integer includeCount;
-
+    private String description;
 }
