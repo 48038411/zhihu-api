@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef59c8d-9951-4e99-b49c-a1502669a68e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/controller/FavoriteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/entity/Favorite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/service/FavoriteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/service/impl/FavoriteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/controller/FavoriteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/entity/Favorite$FavoriteBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/entity/Favorite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/mapper/FavoriteMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/service/FavoriteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/cn/soft1841/zhihu/api/service/impl/FavoriteServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/entity/RoundTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/entity/RoundTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/mapper/TableMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/soft1841/zhihu/api/mapper/TableMapper.java" afterDir="false" />
@@ -82,10 +93,10 @@
     <treeState>
       <expand>
         <path>
-          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
         </path>
         <path>
-          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="Found 6 services " type="fcff1e1b:RestServiceStructure$RootNode" />
           <item name="zhihu-api" type="c588b436:RestServiceStructure$ProjectNode" />
         </path>
       </expand>
@@ -166,7 +177,11 @@
       <workItem from="1579137766461" duration="2927000" />
       <workItem from="1579248855981" duration="4601000" />
       <workItem from="1579276231750" duration="673000" />
-      <workItem from="1579338428069" duration="3710000" />
+      <workItem from="1579338428069" duration="4120000" />
+      <workItem from="1579441778774" duration="603000" />
+      <workItem from="1579484849522" duration="6432000" />
+      <workItem from="1579527348489" duration="1549000" />
+      <workItem from="1579571840325" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="寒假仿知乎项目的后端">
       <created>1579060850162</created>
@@ -175,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579060850162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="后端圆桌更新详情页">
+      <created>1579351254642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579351254642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,25 +205,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="寒假仿知乎项目的后端" />
-    <option name="LAST_COMMIT_MESSAGE" value="寒假仿知乎项目的后端" />
+    <MESSAGE value="后端圆桌更新详情页" />
+    <option name="LAST_COMMIT_MESSAGE" value="后端圆桌更新详情页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="19" key="#Custom_Plugin_Repositories" timestamp="1579060068139">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="233" y="19" key="#Custom_Plugin_Repositories/0.0.1280.720@0.0.1280.720" timestamp="1579060068139" />
-    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1579260778314">
+    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1579517988350">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1579260778314" />
+    <state x="446" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1579517988350" />
     <state x="280" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579054487077">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="280" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1579054487077" />
-    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1579277361626">
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1579351254064">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1579277361626" />
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1579351254064" />
     <state x="121" y="60" key="DiffContextDialog" timestamp="1579060783893">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -210,53 +233,53 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="420" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1579054431776" />
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.0.bottom" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.center" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.0.center" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.left" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.0.left" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.0.right" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.0.right" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.1.bottom" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.1.bottom" timestamp="1579578316306">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.1.center" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1579578316306" />
+    <state width="1237" height="397" key="GridCell.Tab.1.center" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.1.left" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.1.left" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
-    <state width="1237" height="139" key="GridCell.Tab.1.right" timestamp="1579344913793">
+    <state width="1237" height="397" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
+    <state width="1237" height="397" key="GridCell.Tab.1.right" timestamp="1579578316305">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="139" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1579344913793" />
+    <state width="1237" height="397" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1579578316305" />
     <state x="142" y="3" key="SettingsEditor" timestamp="1579166462102">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="142" y="3" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1579166462102" />
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1579277369448">
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2" timestamp="1579351493575">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1579277369448" />
+    <state x="233" y="94" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1579351493575" />
     <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1579254172263">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="405" y="79" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720@0.0.1280.720" timestamp="1579254172263" />
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1579054504146">
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1579495851411">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1579054504146" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1579495851411" />
   </component>
 </project>
